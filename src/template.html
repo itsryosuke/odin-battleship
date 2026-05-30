@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Battleship</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
+
 <body>
+    <div id="container">
+        <h1>Battleship</h1>
+        <div id="display">Press Start Game</div>
+        <div id="boards_container">
+            <p class="para">Your board</p>
+            <p class="para">Computer's board</p>
+            <div id="player_board"></div>
+            <div id="computer_board"></div>
+        </div>
+        <div id="button_container">
+            <button id="restart_button">Randomize ships</button>
+            <p>*randomizing ships mid-game will restart the game</p>
+        </div>
+    </div>
 </body>
+
 </html>
